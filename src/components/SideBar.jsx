@@ -12,10 +12,10 @@ const SideBar = () => {
     <div className='bg-[#067883] rounded-xl !m-5 hidden md:block h-[95vh] w-[350px]'>
       <div className='bg-[#067883] rounded-md !p-4'>
         <div className="rounded-xl !p-3 flex items-center justify-center">
-            <img src={profileImg} alt="Profile Picture" className='h-50 bg-[#00968e] rounded-3xl' />
+            <img src={profileImg} alt="Profile Picture" className='h-40 bg-[#00968e] rounded-3xl' />
         </div>
-        <h1 className="text-white font-bold text-center text-3xl !my-2">ABHISHEK KUMAR</h1>
-        <p className='text-white bg-[#00968e] rounded-md !py-2 text-center !mx-4 !mb-7'>Full Stack Developer</p>
+        <h1 className="text-white font-bold text-center text-2xl !my-2">ABHISHEK KUMAR</h1>
+        <p className='text-white bg-[#00968e] rounded-md !py-2 text-center !mx-4 !mb-7'>MERN Stack Developer</p>
         <hr className="text-[#00968e] !mx-4 border-2" />
         <div className="!mt-7 !px-4 !space-y-4">
 
