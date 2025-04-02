@@ -5,5 +5,11 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: 'Abhishek-Portfolio'
-})
+  base: 'Abhishek-Portfolio',
+  server: {
+    headers: {
+      "Permissions-Policy": "interest-cohort=()"
+    }
+  }
+  
+});
