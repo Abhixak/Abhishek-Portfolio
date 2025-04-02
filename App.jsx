@@ -1,5 +1,5 @@
 import React from 'react'
-import {createBrowserRouter, createHashRouter, HashRouter, RouterProvider} from 'react-router-dom'
+import {createHashRouter, RouterProvider} from 'react-router-dom'
 import SideBar from './components/SideBar'
 import About from './components/About'
 import Projects from './components/Projects'
