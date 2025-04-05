@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";
 
 *{
@@ -14,3 +15,17 @@ body{
 
 }
 
+=======
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #324b4e;
+
+}
+>>>>>>> 5e16a8845e0c4f9aafc98323438a7affe6679b74
