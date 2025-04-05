@@ -33,12 +33,12 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-6 !mt-7">
             {
               service.map((item,index)=>{
-                return <div className="bg-gray-700 border shadow !p-5 text-white flex gap-5 items-start rounded-xl" key={index}>
-                  <div className="text-6xl text-[#ff8c40]">
+                return <div className="bg-[#00968e] shadow !p-5 text-white flex gap-5 items-start rounded-xl" key={index}>
+                  <div className="text-7xl text-[#ff8c40]">
                     {item.logo}
                   </div>
                   <div>
-                    <h1 className="font-bold text-l md:text-xl ">{item.title}</h1>
+                    <h1 className="font-bold text-xl md:text-l ">{item.title}</h1>
                     <p className="text-md md:text-l text-gray-300">{item.desc}</p>
                   </div>
                 </div>

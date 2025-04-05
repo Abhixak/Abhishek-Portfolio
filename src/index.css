@@ -4,9 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('/cursor1.png'), auto;
+
 }
 
 body{
   background-color: #324b4e;
+  /* cursor: url(/public/cursor.png),auto; */
 
 }
+
